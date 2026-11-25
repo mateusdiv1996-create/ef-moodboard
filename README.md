@@ -61,8 +61,8 @@ git push -u origin main
 | Nome | Valor |
 |---|---|
 | `NEXT_PUBLIC_SUPABASE_URL` | Project URL do Supabase |
-| `NEXT_PUBLIC_SUPABASE_ANON_KEY` | chave `anon public` |
-| `SUPABASE_SERVICE_ROLE_KEY` | chave `service_role` |
+| `NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY` | chave `publishable` (ou `anon public`, no painel antigo) |
+| `SUPABASE_SECRET_KEY` | chave `secret` (ou `service_role`) — só para os links públicos de compartilhamento |
 
 3. **Deploy**. Em 1–2 minutos o site fica em `ef-moodboard.vercel.app`.
 4. (Opcional) Em **Settings → Domains** coloque algo como `moodboard.engenhariafilmes.com.br`.
